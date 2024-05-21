@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FlappyWorld
+comment1.params=
+comment1.target=FlappyWorld()
+comment2.params=
+comment2.target=void\ started()
+comment3.params=
+comment3.target=void\ gameOver()
+comment4.params=
+comment4.target=void\ addFog()
+comment5.params=
+comment5.target=void\ act()
+numComments=6

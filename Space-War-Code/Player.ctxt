@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=yVel
+comment1.target=Player(double)
+comment2.params=
+comment2.target=Player()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ handleMovement()
+comment5.params=
+comment5.target=void\ checkCollisions()
+comment6.params=
+comment6.target=boolean\ spacePressed()
+comment7.params=start\ end
+comment7.target=int\ getRandomNumber(int,\ int)
+comment8.params=
+comment8.target=boolean\ isAlive()
+comment9.params=x\ y
+comment9.target=void\ setLocation(double,\ double)
+numComments=10
