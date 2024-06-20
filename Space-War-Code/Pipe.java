@@ -8,6 +8,7 @@ public class Pipe extends Actor {
         "Actor/asteroid.png", 
         "Actor/Ufo1.png", 
         "Actor/ufo2.png",
+        "Actor/Virus.png",
         // Tambahkan path gambar lainnya jika ada
     };
     
