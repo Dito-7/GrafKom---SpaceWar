@@ -12,7 +12,7 @@ public class Bullet extends Actor {
         
         // Inisialisasi suara bullet
         GreenfootSound bulletSound = new GreenfootSound("blaster.mp3");
-        bulletSound.setVolume(30); // Mengatur volume suara menjadi 50% dari volume aslinya
+        bulletSound.setVolume(20); // Mengatur volume suara menjadi 50% dari volume aslinya
         bulletSound.play(); // Ganti "bullet_sound.wav" dengan nama file suara Anda
     }
     

@@ -1,9 +1,18 @@
 import greenfoot.*;
+import java.util.Random;
 
 public class Pipe extends Actor {
+    private static int speed = 1;
     private boolean hasRemoved = false;
-
+    private static final String[] IMAGES = {
+        "Actor/asteroid.png", 
+        "Actor/Ufo1.png", 
+        "Actor/ufo2.png",
+        // Tambahkan path gambar lainnya jika ada
+    };
+    
     public Pipe() {
+        setImage(getRandomImage());
         GreenfootImage image = getImage();
         image.scale(50, 50);
     }
@@ -39,4 +48,11 @@ public class Pipe extends Actor {
             hasRemoved = true;
         }
     }
+
+    private GreenfootImage getRandomImage() {
+        Random rand = new Random();
+        int index = rand.nextInt(IMAGES.length);
+        return new GreenfootImage(IMAGES[index]);
+    }
+    
 }

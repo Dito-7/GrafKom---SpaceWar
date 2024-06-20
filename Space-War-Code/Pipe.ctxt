@@ -8,4 +8,6 @@ comment3.params=
 comment3.target=void\ removePipe()
 comment4.params=
 comment4.target=void\ removePipeWithAnimation()
-numComments=5
+comment5.params=
+comment5.target=greenfoot.GreenfootImage\ getRandomImage()
+numComments=6
